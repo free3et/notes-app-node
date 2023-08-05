@@ -4,9 +4,7 @@
   "main": "dist/app.js",
   "scripts": {
     "start": "node dist/app.js",
-    "build": "tsc",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "build": "tsc"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
